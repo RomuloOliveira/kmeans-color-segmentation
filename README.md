@@ -1,7 +1,14 @@
-How to run:
+K-means color segmentation
+=================
 
-python cluster_image.py gallery.png
+A color segmentation algorithm based on k-means
 
-Obs: Requer biblioteca pypng, que pode ser instalada com o seguinte comando:
+### Depedencies
 
-sudo pip install pypng
+Requires `pypng` python lib. To install, use `pip install pypng` or `sudo pip install pypng`
+
+### How to run
+
+```bash
+$ python cluster_image.py [file.png]
+```
